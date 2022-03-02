@@ -21,9 +21,9 @@
             <h3>Jhon</h3>
           </ion-label>
           <ion-icon id="main-content" name="chatbox-ellipses-outline"></ion-icon>
-            <ion-menu-button>
-              <ion-icon id="main-content" name="options-outline"></ion-icon>
-            </ion-menu-button>
+          <ion-menu-button>
+            <ion-icon id="main-content" name="options-outline"></ion-icon>
+          </ion-menu-button>
         </ion-item>
       </ion-col>
     </ion-row>
@@ -52,7 +52,7 @@
       <ion-item lines="none" *ngFor="let item of list">
         <ion-row *ngIf="item?.image">
           <ion-col size="2">
-            <img src="{{item.image}}" >
+            <img src="{{item.image}}">
           </ion-col>
           <ion-col size="8" class="my-auto">{{item?.title}}</ion-col>
           <ion-col size="2" class="my-auto">
@@ -61,48 +61,6 @@
         </ion-row>
         <hr *ngIf="!item?.name">
       </ion-item>
-      <!-- <ion-row>
-        <ion-col size="2">
-          <img src="assets/images/edit-1.png" height="30px" alt="">
-        </ion-col>
-        <i-col size="10" class="my-auto">Edit Profile</i-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="2">
-          <img src="assets/images/edit-2.png" height="30px" alt="">
-        </ion-col>
-        <i-col size="10" class="my-auto">Edit Preferences</i-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="2">
-          <img src="assets/images/edit-3.png" height="30px" alt="">
-        </ion-col>
-        <i-col size="10" class="my-auto">Verify Your Profile</i-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="2">
-          <img src="assets/images/edit-4.png" height="30px" alt="">
-        </ion-col>
-        <i-col size="10" class="my-auto">Daily Recommendations</i-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="2">
-          <img src="assets/images/edit-5.png" height="30px" alt="">
-        </ion-col>
-        <i-col size="10" class="my-auto">Your Chats</i-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="2">
-          <img src="assets/images/edit-6.png" height="30px" alt="">
-        </ion-col>
-        <i-col size="10" class="my-auto">Your Calls</i-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="2">
-          <img src="assets/images/edit-7.png" height="30px" alt="">
-        </ion-col>
-        <i-col size="10" class="my-auto">Settings</i-col>
-      </ion-row> -->
     </ion-list>
   </ion-content>
 </ion-menu>
